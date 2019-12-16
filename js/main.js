@@ -1,7 +1,7 @@
 (function(win) {
   function app() {
     return {
-      hi: function(name) {
+      hello: function(name) {
         return `Hi ${name}`;
       }
     };
