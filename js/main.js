@@ -1,6 +1,10 @@
 (function(win) {
   function app() {
-    return {};
+    return {
+      hi: function(name) {
+        return `Hi ${name}`;
+      }
+    };
   }
   win.app = app();
 })(window);
